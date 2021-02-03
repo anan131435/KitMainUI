@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class KSBaseCell: UITableViewCell {
+open class KSBaseCell: UITableViewCell {
 
     public override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,7 +27,7 @@ public class KSBaseCell: UITableViewCell {
            selectionStyle = .none
        }
        
-       required init?(coder: NSCoder) {
+      public required init?(coder: NSCoder) {
            fatalError("init(coder:) has not been implemented")
        }
       public  func addChildViews(){

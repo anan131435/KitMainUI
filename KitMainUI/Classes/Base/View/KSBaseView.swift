@@ -8,7 +8,7 @@
 
 import UIKit
  
-public class KSBaseView: UIView {
+open class KSBaseView: UIView {
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -17,7 +17,7 @@ public class KSBaseView: UIView {
         setupConstrains()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
