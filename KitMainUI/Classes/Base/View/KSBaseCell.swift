@@ -10,12 +10,12 @@ import UIKit
 
 open class KSBaseCell: UITableViewCell {
 
-    public override func awakeFromNib() {
+    open override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    public override func setSelected(_ selected: Bool, animated: Bool) {
+    open override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
@@ -27,14 +27,14 @@ open class KSBaseCell: UITableViewCell {
            selectionStyle = .none
        }
        
-      public required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
            fatalError("init(coder:) has not been implemented")
        }
-      public  func addChildViews(){
+      open  func addChildViews(){
            contentView.backgroundColor = .white
           
        }
-      public func setupConstrains(){
+      open func setupConstrains(){
             
         }
 }

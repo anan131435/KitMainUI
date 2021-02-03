@@ -21,10 +21,10 @@ open class KSBaseView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func addChildViews(){
+    open func addChildViews(){
         
     }
-    public func setupConstrains(){
+    open func setupConstrains(){
         
     }
 
