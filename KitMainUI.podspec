@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KitMainUI'
-  s.version          = '1.2'
+  s.version          = '1.4'
   s.summary          = 'basic ui class for kit development.'
 
 # This description is used to generate tags and improve search results.
