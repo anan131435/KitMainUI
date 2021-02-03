@@ -1,0 +1,40 @@
+{
+  "name": "KitMainUI",
+  "version": "1.0",
+  "summary": "basic ui class for kit development.",
+  "description": "convince method for coding ui",
+  "homepage": "https://github.com/anan131435/KitMainUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anan131435": "hanzhifeng@kuaishou.com"
+  },
+  "source": {
+    "git": "https://github.com/anan131435/KitMainUI.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "KitMainUI/Classes/**/*",
+  "resource_bundles": {
+    "KitMainUI": [
+      "KitMainUI/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ],
+    "KitBase": [
+      "1.2"
+    ],
+    "SnapKit": [
+      "~> 5.0.0"
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.2.2)
+  - KitBase (1.2):
+    - Alamofire (~> 5.2.1)
+  - KitMainUI (1.0):
+    - KitBase (= 1.2)
+    - SnapKit (~> 5.0.0)
+    - SVProgressHUD
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - KitBase (= 1.2)
+  - KitMainUI (from `../`)
+  - SnapKit (~> 5.0.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/anan131435/KitBaseRepo.git:
+    - KitBase
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - SnapKit
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  KitMainUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  KitBase: cda68d2c131a5c6dad5f537b0d196fba65a1e245
+  KitMainUI: db7a9dd56e481c6418f7071b5cf084597a8c6781
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 073bcbb51f7cfd85b19164636c43a87da24d2a4a
+
+COCOAPODS: 1.10.0
