@@ -28,7 +28,7 @@ public class KSWebViewController: UIViewController {
         super.viewWillDisappear(animated)
         self.navigationController?.navigationBar.isHidden = false
     }
-    func setNavigationTitle(title: String){
+   public func setNavigationTitle(title: String){
         navigationView.setupTitle(title: title)
     }
     public override func viewDidLoad() {
